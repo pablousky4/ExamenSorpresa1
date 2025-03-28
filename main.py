@@ -26,4 +26,6 @@ def main():
                 print(f"Vector de {nombres[i]} a {nombres[j]}: {punto1.vector(punto2)}")
                 print(f"Distancia entre {nombres[i]} y {nombres[j]}: {punto1.distancia(punto2)}")
 
+if __name__ == "__main__":
+    main()
 
