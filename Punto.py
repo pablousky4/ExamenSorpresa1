@@ -23,3 +23,8 @@ class Punto:
             return "Esta en el eje X"
         else:
             return "esta en origen"
+        
+    def vector(self, otro_punto):
+        return Punto(otro_punto.x - self.x, otro_punto.y - self.y)
+    
+    
