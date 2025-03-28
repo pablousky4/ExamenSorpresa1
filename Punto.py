@@ -27,4 +27,5 @@ class Punto:
     def vector(self, otro_punto):
         return Punto(otro_punto.x - self.x, otro_punto.y - self.y)
     
-    
+    def distancia(self, otro_punto):
+        return math.sqrt((otro_punto.x - self.x) ** 2 + (otro_punto.y - self.y) ** 2)
